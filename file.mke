@@ -1,0 +1,13 @@
+//% color="#3454D1" weight=100 icon="⚠"
+namespace evalBlock {
+    //% block="eval( %str )"
+    //% blockId="eval"
+    export function Eval(str:string){
+        eval(str)
+    }
+    //% block="eval( %str )"
+    //% blockId="reportEvalAnoyn"
+    export function EvalReport(str:string){
+        return eval(str)
+    }
+}
